@@ -12,3 +12,61 @@ img,
 video {
   display: block;
 }
+
+.text {
+  color: #f00;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px; /* 100% */
+}
+
+.number {
+  color: #000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+}
+
+.like {
+  color: #f00;
+  font-family: "Font Awesome 6 Free";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 100% */
+}
+
+.button {
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 19px;
+  border: 2px solid #f00;
+  margin: 50px;
+  width: 140px;
+}
+
+.is-red {
+  background-color: #f00;
+  transition-property: background-color;
+  transition-duration: 1.5s;
+}
+
+.is-red:hover {
+  background-color: #f00;
+}
+
+.is-white {
+  color: white;
+  transition-property: color;
+  transition-duration: 1.5s;
+}
+
+.is-white:hover {
+  color: white;
+}
